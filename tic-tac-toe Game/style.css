@@ -1,0 +1,76 @@
+/* Style the video: 100% width and height to cover the entire window */
+#backVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .cells{
+    margin-left: 16px;
+    font-size: ;
+    
+  }
+  
+.cell{
+  float: left;
+  width: 30%;
+  height: 6em;
+  border: 1px solid red;
+  padding: 1em;
+  margin-left: 5px;
+  margin-top: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  color: rgb(245, 63, 7);
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  font-size-adjust: none;
+}
+.cell:hover{
+  background: rgba(201, 96, 47, 0.479);
+  color: #f1f1f1;
+  
+}
+.headding{
+  background: rgba(0, 0, 0, 0.5);
+  color: red;
+  border-radius: 15px;
+  padding: 5px;
+  border: 1px solid rgb(155, 139, 139);
+  height: 8em;
+}
+.headding h2{
+  font-family: fantasy;
+  font-size: 52px;
+}
+.turn{
+  height: 25em;
+  width: 100%;
+  color: rgb(245, 63, 7);
+ font-size: 3px; 
+  
+}
+
+#myBtn {
+  width: 70%;
+  font-size: 18px;
+  padding: 10px;
+  border: solid rgba(201, 186, 179, 0.479);
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 12%;
+  border-radius: 19px;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+#status{
+  color: red;
+  font-size: 3em;
+  font-family: fantasy;
+}
